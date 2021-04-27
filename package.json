@@ -1,0 +1,16 @@
+{
+    "name": "Parking Lot",
+    "version": "1.0.0",
+    "description": "create an automated parking lot that can hold up to 'n' cars & a ticketing system that allows customers to use this parking lot without human intervention.",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "test": "mocha **test/*.js"
+    },
+    "dependencies": {
+      "chai": "^1.10.0",
+      "mocha": "^2.0.1"
+    },
+    "author": "Ankush Sharma",
+    "license": "ISC"
+  }
